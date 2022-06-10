@@ -1,0 +1,167 @@
+/* -- Site -- */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../img/Fond_Code_Info.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font: normal 16px/1.5 "Helvetica Neue";
+    font-family: sans-serif;
+}
+
+
+/* -- Navbar -- */
+
+nav {
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: azure;
+    background: linear-gradient(to left, #295bcf, black);
+}
+
+.title li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 10px;
+}
+
+.navigation li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 10px 10px;
+}
+
+.navigation li a {
+    color: azure;
+    text-decoration: none;
+}
+
+
+/* -- Qui suis-je ? -- */
+
+#whoIAm {
+    display: bottom;
+    text-align: center;
+    background: linear-gradient(to left, #295bcf, black);
+}
+
+#blockChainSkills {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+#blockChainActivities {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+#blockSingle {
+    background: linear-gradient(to left, black);
+    border-radius: 30px;
+    padding: 0px 20px;
+}
+
+#blockSingle ul li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background: none;
+}
+
+#whoIAm img {
+    width: 135px;
+    height: 150px;
+}
+
+/* -- Mes Experiences -- */
+
+#myExperiences{
+    display: bottom;
+    text-align: center;
+    background: linear-gradient(to left, #295bcf, black);
+}
+
+#formation li {
+    list-style: none;
+}
+
+#activities li {
+    list-style: none;
+}
+
+#buttonForPDF {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: blue;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* -- Me Contacter -- */
+
+#contactSection {
+    display: bottom;
+    text-align: center;
+    background: linear-gradient(to left, #295bcf, black);
+}
+
+#contactInfo {
+    display: bottom;
+    text-align: center;
+}
+
+#blockChainContact {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+#contactSection img {
+    width: 100px;
+    height: 100px;
+}
+
+form.contactForm {
+    display: table;
+}
+
+div.contactForm {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+/* -- Copyright -- */
+
+footer {
+    display: bottom;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
