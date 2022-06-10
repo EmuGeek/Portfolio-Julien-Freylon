@@ -1,2 +1,3 @@
 # Portfolio-Julien-Freylon
-Site Web
+FR: Site Web pour présentation personnelle et prise de connaissance de mes expériences
+EN: Website for personal presentation et getting the gist of my experiences
